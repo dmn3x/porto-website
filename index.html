@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhafin — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+
+    <!-- NAV -->
+    <header class="site-header">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Dhafin Logo" width="42" height="40">
+        </div>
+        <nav class="site-nav">
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#projects" class="nav-link">PROJECTS</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <main class="hero">
+        <div class="hero-content reveal">
+            <h1 class="hero-title">
+                <span>HI!</span>
+                <span>I'M DHAFIN</span>
+            </h1>
+            <p class="hero-subtitle">
+                A college student wanting to make a name for myself. A graphics design enthusiast with a will to learn more.
+            </p>
+            <a href="#contact" class="cta-btn magnetic-btn">
+                Let's Collaborate!
+                <img src="assets/arrow.png" alt="" class="cta-arrow" width="24" height="15">
+            </a>
+        </div>
+    </main>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section--light">
+        <div class="container about-grid">
+            <div class="about-text reveal">
+                <h2 class="section-heading">About Me.</h2>
+                <p class="lead-text">I'm Dhafin, a college student passionate about creating meaningful visual experiences.</p>
+                <p>I specialize in bridging the gap between aesthetics and function. Whether it's crafting an identity from scratch, mapping out an intuitive interface, or bringing static designs to life through motion — I approach every problem with curiosity and precision.</p>
+
+                <div class="skill-tags">
+                    <span class="skill-tag">Graphic Design</span>
+                    <span class="skill-tag">UI/UX</span>
+                    <span class="skill-tag">Branding</span>
+                    <span class="skill-tag">Motion</span>
+                </div>
+            </div>
+            <div class="about-visual reveal">
+                <div class="visual-card">
+                    <div class="visual-inner">
+                        <div class="abstract-shape"></div>
+                        <h3 class="visual-title">Always<br>Learning.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--white">
+        <div class="container">
+            <h2 class="section-heading reveal">Selected Works.</h2>
+
+            <div class="project-showcase">
+                <!-- Project 1 -->
+                <article class="project-item reveal">
+                    <div class="project-image-wrapper">
+                        <div class="project-image pattern-1"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Visual Identity</span>
+                        <h3 class="project-title">Brand Evolution</h3>
+                        <p class="project-desc">A complete visual overhaul for a rising tech startup, focusing on bold typography and dynamic color systems.</p>
+                        <a href="#" class="project-link">View Project <span class="arrow">→</span></a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-item reveal">
+                    <div class="project-image-wrapper">
+                        <div class="project-image pattern-2"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">UI/UX Design</span>
+                        <h3 class="project-title">Fintech App</h3>
+                        <p class="project-desc">Designing an intuitive personal finance dashboard that simplifies complex data into actionable insights.</p>
+                        <a href="#" class="project-link">View Project <span class="arrow">→</span></a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-item reveal">
+                    <div class="project-image-wrapper">
+                        <div class="project-image pattern-3"></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Motion Graphics</span>
+                        <h3 class="project-title">Social Campaign</h3>
+                        <p class="project-desc">A series of kinetic typography animations driving engagement for a global awareness campaign.</p>
+                        <a href="#" class="project-link">View Project <span class="arrow">→</span></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact accessible heading for screen readers -->
+    <h2 class="sr-only" style="position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0;">Let's Collaborate</h2>
+    <section id="contact" class="section section--red contact-section">
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-content">
+                <span>LET'S COLLABORATE • </span>
+                <span>LET'S COLLABORATE • </span>
+                <span>LET'S COLLABORATE • </span>
+                <span>LET'S COLLABORATE • </span>
+            </div>
+            <div class="marquee-content">
+                <span>LET'S COLLABORATE • </span>
+                <span>LET'S COLLABORATE • </span>
+                <span>LET'S COLLABORATE • </span>
+                <span>LET'S COLLABORATE • </span>
+            </div>
+        </div>
+
+        <div class="container contact-container reveal">
+            <h2 class="contact-heading">Ready to start your next project?</h2>
+            <p class="contact-sub">Drop me a line and let's make something great together.</p>
+            <a href="mailto:dhafindzimar1234@gmail.com" class="giant-mailto">
+                dhafindzimar1234@gmail.com
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-flex">
+            <p>&copy; 2026 Dhafin Dzimar.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Behance</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGIRsoAc8iejI08t1B4RGsB1s1xS4Xz/xI7tA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-ic8yZzZk1c8zB7sLwDIfqM6Yt1hT4z5O5k2e3o10T0Vj2v9q5O1z4z3X9O3t1v1T7u6q9B3X8s8y9g8T7p1o4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
+    <script>
+        // Smooth scrolling with Lenis (Industry standard for premium UI)
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            direction: 'vertical',
+            gestureDirection: 'vertical',
+            smooth: true,
+            mouseMultiplier: 1,
+            smoothTouch: false,
+            touchMultiplier: 2,
+            infinite: false,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        // Connect GSAP ScrollTrigger to Lenis
+        gsap.registerPlugin(ScrollTrigger);
+        lenis.on('scroll', ScrollTrigger.update);
+        gsap.ticker.add((time)=>{ lenis.raf(time * 1000) });
+        gsap.ticker.lagSmoothing(0);
+
+        // Premium GSAP Animations
+
+        // 1. Hero text stagger
+        gsap.from(".hero-title span", {
+            y: 100,
+            opacity: 0,
+            duration: 1.2,
+            stagger: 0.2,
+            ease: "power4.out",
+            delay: 0.2
+        });
+        gsap.from(".hero-subtitle, .cta-btn", {
+            y: 40,
+            opacity: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out",
+            delay: 0.8
+        });
+
+        // 2. Parallax abstract shape in About section
+        gsap.to(".visual-card", {
+            y: -50,
+            ease: "none",
+            scrollTrigger: {
+                trigger: ".about-visual",
+                start: "top bottom",
+                end: "bottom top",
+                scrub: true
+            }
+        });
+
+        // 3. Staggered reveal for projects
+        gsap.utils.toArray('.project-item').forEach(item => {
+            gsap.from(item, {
+                y: 80,
+                opacity: 0,
+                duration: 1.2,
+                ease: "power3.out",
+                scrollTrigger: {
+                    trigger: item,
+                    start: "top 80%",
+                }
+            });
+            // Parallax image
+            gsap.to(item.querySelector('.project-image'), {
+                scale: 1.15,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: item,
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: true
+                }
+            });
+        });
+
+        // 4. Marquee speed up on scroll
+        let tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".marquee",
+                start: "top bottom",
+                end: "bottom top",
+                scrub: 1
+            }
+        });
+        // 5. Header glass effect on scroll
+        const header = document.querySelector('.site-header');
+        ScrollTrigger.create({
+            start: "top -100",
+            onUpdate: (self) => {
+                if (self.scrollY > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
